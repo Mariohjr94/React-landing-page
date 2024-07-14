@@ -19,20 +19,20 @@ export const socialLinks = [
 export const services = [
   {
     id: 1,
-    icon: "fas fa-wallet fa-fw",
-    title: "saving money",
+    icon: "fa-solid fa-clipboard",
+    title: "Loging",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.",
   },
   {
     id: 2,
-    icon: "fas fa-tree fa-fw",
-    title: "endless hiking",
+    icon: "fa solid fa-calculator",
+    title: "scaling",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.",
   },
   {
     id: 3,
-    icon: "fas fa-socks fa-fw",
-    title: "amazing comfort",
+    icon: "fa-solid fa-book-open",
+    title: "Tracking",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.",
   },
 ];
@@ -44,9 +44,9 @@ export const tours = [
     date: "august 26th, 2020",
     title: "French Toast",
     info: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "china",
+    location: "american",
     duration: 6,
-    cost: 2100,
+    category: "Breakfast",
   },
   {
     id: 2,
@@ -54,9 +54,9 @@ export const tours = [
     date: "august 26th, 2020",
     title: "Egg Salad",
     info: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "china",
+    location: "american",
     duration: 6,
-    cost: 2100,
+    category: "Lunch",
   },
   {
     id: 3,
@@ -64,9 +64,9 @@ export const tours = [
     date: "august 26th, 2020",
     title: "Salmon",
     info: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "china",
+    location: "french",
     duration: 6,
-    cost: 2100,
+    category: "Seafood",
   },
   {
     id: 4,
@@ -74,8 +74,8 @@ export const tours = [
     date: "august 26th, 2020",
     title: "Avocado Toast",
     info: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
-    location: "china",
+    location: "american",
     duration: 6,
-    cost: 2100,
+    category: "Breakfast",
   },
 ];

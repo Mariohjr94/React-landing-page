@@ -9,7 +9,7 @@ const Tours = () => {
 
       <div className="section-center featured-center">
         {tours.map((tour) => {
-          const { id, image, date, title, info, location, duration, cost } =
+          const { id, image, date, title, info, location, duration, category } =
             tour;
           return (
             <article className="tour-card" key={id}>
@@ -30,7 +30,7 @@ const Tours = () => {
                     {location}
                   </p>
                   <p>{duration} days</p>
-                  <p>from ${cost}</p>
+                  <p>{category}</p>
                 </div>
               </div>
             </article>
